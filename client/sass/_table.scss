@@ -1,0 +1,39 @@
+/**
+ * Data Table styles
+ */
+
+#data-table {
+  margin: 30px 40px;
+  table {
+    width: 100%;
+    border-collapse: separate;
+    tr {
+      &:first-child {
+        td {
+          background: $color-gray;
+          color: $color-light-gray;
+          font-weight: bold;
+        }
+      }
+    }
+    td {
+      padding: 7px 20px;
+      border-bottom: 1px solid $color-dark-gray;
+      border-top: 1px solid $color-gray-777;
+      font-size: 13px;
+      text-shadow: 1px 0 0 $color-dark-gray;
+      background: $color-gray-666;
+    }
+  }
+}
+
+.data-table {
+  &__cell {
+    color: $color-light-gray;
+
+    &--splash {
+      color: $color-yellow;
+    }
+  }
+}
+

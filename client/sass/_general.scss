@@ -1,0 +1,33 @@
+/**
+ * General Page styles
+ */
+.page-container {
+  padding-bottom:50px;
+
+  /**
+   * Headings
+   */
+  h1 {
+    padding: 20px 40px;
+    color: $color-dark-white;
+    display: block;
+    background: $color-black;
+    margin: 0;
+    text-shadow: 0 0 6px  $color-dark-gray;
+
+    span {
+      color: $color-yellow;
+    }
+  }
+
+  /**
+   * Errors
+   */
+
+  #error-block {
+    display:none;
+    padding:30px 40px;
+    background: $color-dark-red;
+    color:$color-dark-white;
+  }
+}
